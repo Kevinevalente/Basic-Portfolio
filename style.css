@@ -1,5 +1,4 @@
 body	{
-	
 	font-family: Georgia, Times, Times, serif;
 	margin: none;
 	background-image: url("C:\\git\\Basic-Portfolio\\Assets\\Images\\cloth.png");
@@ -78,6 +77,7 @@ aside {
 }
 
 footer {
+	padding-top: 20px;
 	background-color: #666;
 	color: white;
 	text-align: center;
