@@ -19,7 +19,7 @@ h1 {position: relative;
 	}
 
 nav, a {
-	position: relative;
+	position: static;
 	font-weight: bold;
 	right: 8em;
 	bottom: 3em;
@@ -37,6 +37,7 @@ h3 {
 
 
 header {
+	position: static;
 	background-color:white;
 	margin:20px;
 	padding-top:20px;
@@ -129,3 +130,20 @@ footer {
 	top: -22px;
 	left: 70px;
 }
+
+@media screen and (max-width: 980px) {
+	body {
+		background-color: #333;
+		}
+
+	
+@media screen and (max-width: 768px) {
+	body {
+		background-color: #333;
+		}
+
+	
+@media screen and (max-width: 640px) {
+	body {
+		background-color: #333;
+		}
